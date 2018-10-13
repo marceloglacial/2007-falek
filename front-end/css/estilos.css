@@ -1,0 +1,116 @@
+/* Reset 
+---------------------------------------------------------------- */
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	background:url("../img/site_fundo.jpg") repeat-x;
+}
+hr {
+	display:none;
+}
+
+/* Site
+---------------------------------------------------------------- */
+#Site {
+	position:relative;
+	margin:0 auto;
+	width:775px;
+}
+
+/* #Cabecalho
+---------------------------------------------------------------- */
+#Cabecalho {
+	float:left;
+	width:250px;
+}
+#Cabecalho h1 a {
+	display:block;
+	width:250px;
+	height:94px;
+	padding-top:35px;
+	background:url("../img/cabecalho_logo.jpg") no-repeat bottom center;
+	text-indent:-9999px;	
+}
+/* Navegacao
+---------------------------------------------------------------- */
+#Navegacao {
+	background:url("../img/menu_folha.png");
+	width:305px;
+	height:114px;
+	
+	position:absolute;
+	top:164px;
+	left:-71px;
+}
+#Navegacao h2,
+#Navegacao ul {
+	display:none;
+}
+
+/* Menu
+---------------------------------------------------------------- */
+#Menu {
+	float:left;
+	clear:left;
+	width:210px;
+	padding:70px 40px 40px 0;
+	
+	background:url("../img/menu_laterais.png") no-repeat top;
+
+	text-align:right;
+}
+#Menu h2 {
+	display:none;
+}
+#Menu ul {
+	list-style:none;
+	padding-bottom:30px;
+}
+#Menu ul li {
+	padding-bottom:10px;
+}
+#Menu ul li a {
+	font-size:130%;
+	text-decoration:none;
+	color:#374E00;
+}
+#Menu h3 {
+	font-size:70%;
+	color:#374E00;
+	text-align:left;
+	padding-bottom:5px;
+	margin:0 0 10px 60px;
+	border-bottom:solid 1px #91AD99;
+}
+
+/* Conteudo
+---------------------------------------------------------------- */
+#Conteudo {
+	margin-left:260px;
+	padding-bottom:40px;
+}
+#Principal img {
+	display:none;
+}
+/* Rodape
+---------------------------------------------------------------- */
+#Rodape {
+	clear:both;
+	text-align:center;
+	padding-top:25px;
+	background:url("../img/rodape_fundo.png") no-repeat center top;
+	color:#777;
+	font-size:80%;
+}
+#Rodape a {
+	color:#777;
+}
+#Rodape div {
+	display:inline;
+}
+#Rodape #Tropus {
+	display:none;
+}
